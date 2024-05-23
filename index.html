@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,10 +22,8 @@
     <title>Fitness-Website</title>
   </head>
   <body>
-    <header
-      class="flex w-full h-24  justify-center items-center px-16 py-6"
-    >
-     <div class="flex w-full max-w-[1312px]  justify-between items-center">
+    <header class="flex w-full h-24 justify-center items-center px-16 py-6">
+      <div class="flex w-full max-w-[1312px] justify-between items-center">
         <img class="w-32 h-10" src="./assest/Button.png" alt="" />
         <nav>
           <ul class="flex gap-4 font-lato font-medium text-2xl text-gray-700">
@@ -37,43 +38,105 @@
         >
           Reach out
         </button>
-     </div>
+      </div>
     </header>
 
     <main>
-        <section class="p-16 flex flex-col items-center  justify-center">
-            <div class="max-w-[1312px] w-full flex flex-col gap-10 items-center justify-center ">
-                <div class="flex flex-col gap-6">
-                    <h3 class="font-extrabold text-6xl font-lato leading-[68px] text-center">Unleash Your Strength: Transform Your Body with Our Fitness Programs</h3>
-                    <p class="font-lato text-2xl font-medium leading-8 text-center">Unlock Your Potential: Achieve Your Fitness Goals with Our Tailored Programs</p>
-                </div>
-                <div class="flex gap-2">
-                    <button class="w-64 px-8 py-4 bg-fuchsia-600 rounded-lg text-white">Get started</button>
-                    <button class="w-64 px-8 py-4 border border-gray-300 rounded-lg text-gray-700">Watch video</button>
-                </div>
+      <section class="p-16 flex flex-col items-center justify-center">
+        <div
+          class="max-w-[1312px] w-full flex flex-col gap-10 items-center justify-center"
+        >
+          <div class="flex flex-col gap-6">
+            <h3
+              class="font-extrabold text-6xl font-lato leading-[68px] text-center"
+            >
+              Unleash Your Strength: Transform Your Body with Our Fitness
+              Programs
+            </h3>
+            <p class="font-lato text-2xl font-medium leading-8 text-center">
+              Unlock Your Potential: Achieve Your Fitness Goals with Our
+              Tailored Programs
+            </p>
+          </div>
+          <div class="flex gap-2">
+            <button class="w-64 px-8 py-4 bg-fuchsia-600 rounded-lg text-white">
+              Get started
+            </button>
+            <button
+              class="w-64 px-8 py-4 border border-gray-300 rounded-lg text-gray-700"
+            >
+              Watch video
+            </button>
+          </div>
 
-                <div class="flex gap-10">
-                    <div class="flex flex-col gap-6 border-r-2 pr-6">
-                        <span class="text-4xl font-lato font-bold text-center">105+</span>
-                        <p class="text-2xl font-lato text-gray-600">Expert Trainers</p>
-                    </div>
-                    <div class="flex flex-col gap-6 border-r-2 pr-6">
-                        <span class="text-4xl font-lato font-bold text-center">970+</span>
-                        <p class="text-2xl font-lato text-gray-600">Member Joined</p>
-                    </div>
-                    <div class=" flex flex-col gap-6 pr-6">
-                        <span class="text-4xl font-lato font-bold text-center">135+</span>
-                        <p class="text-2xl font-lato text-gray-600">Fitness Programs</p>
-                    </div>
-                </div>
-                <div class="flex gap-6">
-                    <img class="h-[452px] " src="./assest/Card 1.png" alt="">
-                    <img src="./assest/Card 2.png" alt="">
-                    <img src="./assest/Card 3.png" alt="">
-                </div>
+          <div class="flex gap-10">
+            <div class="flex flex-col gap-6 border-r-2 pr-6">
+              <span class="text-4xl font-lato font-bold text-center">105+</span>
+              <p class="text-2xl font-lato text-gray-600">Expert Trainers</p>
             </div>
-            
-        </section>
+            <div class="flex flex-col gap-6 border-r-2 pr-6">
+              <span class="text-4xl font-lato font-bold text-center">970+</span>
+              <p class="text-2xl font-lato text-gray-600">Member Joined</p>
+            </div>
+            <div class="flex flex-col gap-6 pr-6">
+              <span class="text-4xl font-lato font-bold text-center">135+</span>
+              <p class="text-2xl font-lato text-gray-600">Fitness Programs</p>
+            </div>
+          </div>
+          <div class="flex gap-6">
+            <img class="h-[452px]" src="./assest/Card 1.png" alt="" />
+            <img src="./assest/Card 2.png" alt="" />
+            <img src="./assest/Card 3.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="flex gap-40 p-16 bg-fuchsia-50 items-center justify-center"
+      >
+        <div class="flex justify-between w-full max-w-[1312px] items-center">
+          <div class="flex flex-col gap-6 max-w-[646px]">
+            <h3 class="font-lato font-extrabold text-4xl">About us</h3>
+            <p class="font-lato font-medium text-2xl text-gray-600">
+              At iFitness Studio we’re more than just a gym. We’re a community
+              of passionate fitness enthusiasts dedicated to transforming lives.
+              Our story began with a simple mission: to empower individuals to
+              achieve their health and wellness goals.
+            </p>
+            <button
+              class="w-52 h-14 bg-fuchsia-600 rounded-lg px-8 py-4 text-white flex items-center justify-center"
+            >
+              Know more
+            </button>
+          </div>
+          <div class="flex gap-4">
+            <img src="./assest/1.png" alt="" />
+            <img src="./assest/2.png" alt="" />
+            <img src="./assest/3.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="flex py-16">
+        <div class="flex flex-col gap-10 w-full max-w-7xl">
+          <h3>What Sets Us Apart</h3>
+          <div class="flex gap-10">
+            <div class="rounded-2xl border-2 border-gray-200 p-8 flex flex-col gap-2">
+              <div class="flex gap-4 flex-col">
+                <div class="flex gap-4">
+                  <span class="flex font-lato font-extrabold text-4xl">01</span>
+                  <span>Personalized Approach</span>
+                </div>
+                <p>
+                  We understand that no two bodies are the same. Our certified
+                  trainers tailor workouts to your unique needs, ensuring
+                  results.
+                </p>
+              </div>
+              <img src="./assest/Flip card component.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>

@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily:{
         lato:['lato'],
-        inter:['inter']
+        inter:['inter'],
+        Raleway:['Raleway']
       },
       colors:{
         Fuchsia: '#BA24D5'
