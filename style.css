@@ -554,6 +554,14 @@ video {
   --tw-contain-style:  ;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -753,6 +761,10 @@ video {
 
 .items-start {
   align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -1025,6 +1037,16 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -1175,6 +1197,54 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:w-80 {
+    width: 20rem;
+  }
+
+  .sm\:gap-4 {
+    gap: 1rem;
+  }
+
+  .sm\:gap-6 {
+    gap: 1.5rem;
+  }
+
+  .sm\:p-8 {
+    padding: 2rem;
+  }
+
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .sm\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  .sm\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:h-24 {
     height: 6rem;
@@ -1231,6 +1301,22 @@ video {
     max-width: 646px;
   }
 
+  .xl\:max-w-7xl {
+    max-width: 80rem;
+  }
+
+  .xl\:max-w-\[1149px\] {
+    max-width: 1149px;
+  }
+
+  .xl\:max-w-\[1212px\] {
+    max-width: 1212px;
+  }
+
+  .xl\:flex-col {
+    flex-direction: column;
+  }
+
   .xl\:items-center {
     align-items: center;
   }
@@ -1263,6 +1349,10 @@ video {
     gap: 10rem;
   }
 
+  .xl\:gap-\[340px\] {
+    gap: 340px;
+  }
+
   .xl\:rounded-lg {
     border-radius: 0.5rem;
   }
@@ -1289,6 +1379,26 @@ video {
   .xl\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .xl\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .xl\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .xl\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .xl\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
   }
 
   .xl\:pr-6 {
@@ -1319,6 +1429,11 @@ video {
     line-height: 2.5rem;
   }
 
+  .xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
   .xl\:font-semibold {
     font-weight: 600;
   }
@@ -1333,5 +1448,9 @@ video {
 
   .xl\:leading-8 {
     line-height: 2rem;
+  }
+
+  .xl\:leading-10 {
+    line-height: 2.5rem;
   }
 }
