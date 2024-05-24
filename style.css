@@ -631,6 +631,14 @@ video {
   height: 20rem;
 }
 
+.h-auto {
+  height: auto;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .w-14 {
   width: 3.5rem;
 }
@@ -685,6 +693,10 @@ video {
 
 .w-\[360px\] {
   width: 360px;
+}
+
+.w-60 {
+  width: 15rem;
 }
 
 .max-w-\[1312px\] {
@@ -745,6 +757,10 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-52 {
+  gap: 13rem;
 }
 
 .rounded-2xl {
@@ -846,6 +862,11 @@ video {
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
 .p-16 {
   padding: 4rem;
 }
@@ -868,6 +889,10 @@ video {
 
 .p-10 {
   padding: 2.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-16 {
@@ -1054,7 +1079,17 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:gap-10 {
+    gap: 2.5rem;
+  }
+}
+
 @media (min-width: 1280px) {
+  .xl\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .xl\:flex {
     display: flex;
   }
@@ -1091,6 +1126,14 @@ video {
     width: 24rem;
   }
 
+  .xl\:w-72 {
+    width: 18rem;
+  }
+
+  .xl\:w-80 {
+    width: 20rem;
+  }
+
   .xl\:max-w-7xl {
     max-width: 80rem;
   }
@@ -1113,6 +1156,10 @@ video {
 
   .xl\:max-w-\[1440px\] {
     max-width: 1440px;
+  }
+
+  .xl\:max-w-xl {
+    max-width: 36rem;
   }
 
   .xl\:items-center {
