@@ -1293,6 +1293,10 @@ video {
     width: 16rem;
   }
 
+  .xl\:w-96 {
+    width: 24rem;
+  }
+
   .xl\:max-w-\[1312px\] {
     max-width: 1312px;
   }
@@ -1351,6 +1355,10 @@ video {
 
   .xl\:gap-\[340px\] {
     gap: 340px;
+  }
+
+  .xl\:gap-\[px\] {
+    gap: px;
   }
 
   .xl\:rounded-lg {
