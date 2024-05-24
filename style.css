@@ -1342,6 +1342,11 @@ video {
     line-height: 1.75rem;
   }
 
+  .xl\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
   .xl\:font-extrabold {
     font-weight: 800;
   }
@@ -1356,5 +1361,13 @@ video {
 
   .xl\:leading-\[68px\] {
     line-height: 68px;
+  }
+
+  .xl\:leading-\[80px\] {
+    line-height: 80px;
+  }
+
+  .xl\:leading-\[100px\] {
+    line-height: 100px;
   }
 }
