@@ -882,6 +882,10 @@ video {
   padding: 2rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -967,6 +971,10 @@ video {
 
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
 }
 
 .text-center {
@@ -1068,6 +1076,10 @@ video {
 
 .leading-\[68px\] {
   line-height: 68px;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
 }
 
 .text-black {
