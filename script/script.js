@@ -1,7 +1,5 @@
-// Get all navigation items
 const navItems = document.querySelectorAll('.nav-item');
-
-// Add click event listener to each navigation item
+console.log(navItems);
 navItems.forEach(item => {
     item.addEventListener('click', () => {
         // Remove active class from all items
