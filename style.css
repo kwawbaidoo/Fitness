@@ -619,6 +619,10 @@ video {
   height: 6rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .w-14 {
   width: 3.5rem;
 }
@@ -1056,6 +1060,10 @@ video {
 
   .xl\:h-auto {
     height: auto;
+  }
+
+  .xl\:h-0 {
+    height: 0px;
   }
 
   .xl\:w-32 {
