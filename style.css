@@ -659,6 +659,14 @@ video {
   width: 100%;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
 .max-w-\[1312px\] {
   max-width: 1312px;
 }
@@ -1066,6 +1074,10 @@ video {
 
   .xl\:w-full {
     width: 100%;
+  }
+
+  .xl\:w-auto {
+    width: auto;
   }
 
   .xl\:max-w-7xl {
