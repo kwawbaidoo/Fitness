@@ -615,6 +615,10 @@ video {
   height: 620px;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .w-14 {
   width: 3.5rem;
 }
@@ -671,6 +675,22 @@ video {
   max-width: 1312px;
 }
 
+.max-w-60 {
+  max-width: 15rem;
+}
+
+.max-w-96 {
+  max-width: 24rem;
+}
+
+.max-w-72 {
+  max-width: 18rem;
+}
+
+.max-w-80 {
+  max-width: 20rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -721,6 +741,14 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-0 {
+  gap: 0px;
+}
+
+.gap-7 {
+  gap: 1.75rem;
 }
 
 .rounded-2xl {
@@ -959,6 +987,18 @@ video {
   line-height: 1rem;
 }
 
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+.text-\[11px\] {
+  font-size: 11px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1014,6 +1054,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 @media (min-width: 640px) {
@@ -1098,6 +1142,14 @@ video {
 
   .xl\:max-w-\[646px\] {
     max-width: 646px;
+  }
+
+  .xl\:max-w-60 {
+    max-width: 15rem;
+  }
+
+  .xl\:max-w-96 {
+    max-width: 24rem;
   }
 
   .xl\:items-center {
