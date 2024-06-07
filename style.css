@@ -1065,6 +1065,14 @@ video {
     font-size: 0.75rem;
     line-height: 1rem;
   }
+
+  .sm\:text-\[11px\] {
+    font-size: 11px;
+  }
+
+  .sm\:text-\[\] {
+    color: ;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1150,6 +1158,14 @@ video {
 
   .xl\:max-w-96 {
     max-width: 24rem;
+  }
+
+  .xl\:max-w-0 {
+    max-width: 0px;
+  }
+
+  .xl\:max-w-full {
+    max-width: 100%;
   }
 
   .xl\:items-center {
